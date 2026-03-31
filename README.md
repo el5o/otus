@@ -1,3 +1,3 @@
-# Linux Administrator Professional (OTUS): домашние задания
+# OTUS: домашние задания
 
-Репозиторий с выполненными домашними заданиями по курсу «Administrator Linux. Professional» от OTUS.
+Репозиторий с выполненными домашними заданиями по курсам от OTUS.
