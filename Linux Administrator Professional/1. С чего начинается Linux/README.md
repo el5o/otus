@@ -38,6 +38,8 @@ tar -xJf linux-6.19.11.tar.xz
 ### 4. Конфигурация ядра
 ```bash
 cd linux-6.19.11
+
+# за основу берём конфигурацию текущего ядра
 cp /boot/config-$(uname -r) .config
 make localmodconfig
 ```
@@ -94,4 +96,5 @@ reboot
 uname -r
 6.19.11
 ```
+![Результат проверки]()
 
