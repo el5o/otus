@@ -96,5 +96,5 @@ reboot
 uname -r
 6.19.11
 ```
-![Результат проверки]()
+![Результат проверки](screenshots/verify_kernel_update.png)
 
