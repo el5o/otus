@@ -56,11 +56,11 @@ make localmodconfig
 ### 5. Сборка ядра
 ```bash
 make -j$(nproc)
-make modules_install
 ```
 
-### 6. Установка ядра и вывод об успешной установке, генерации initramfs и обновлении конфигурации grub
+### 6. Установка ядра и модулей, вывод об успешной установке, генерации initramfs и обновлении конфигурации grub
 ```bash
+make modules_install
 make install
   INSTALL /boot
 run-parts: executing /etc/kernel/postinst.d/dkms 6.19.11 /boot/vmlinuz-6.19.11
