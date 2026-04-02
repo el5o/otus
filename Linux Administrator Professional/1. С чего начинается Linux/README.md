@@ -44,7 +44,7 @@ cp /boot/config-$(uname -r) .config
 make localmodconfig
 ```
 
-> #### Если возникла ошибка needed by 'certs/x509_revocation_list
+> #### Избегаем ошибки needed by 'certs/x509_revocation_list
 > Требуется либо добавить список отозванных сертификатов в debian/canonical-revoked-certs.pem, либо исключить из .config параметр CONFIG_SYSTEM_REVOCATION_LIST.
 >
 > Это можно сделать в псевдографическом интерфейсе:
